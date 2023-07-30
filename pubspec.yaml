@@ -1,7 +1,7 @@
 name: flutter_rr_toast
-description: A new Flutter package project.
+description: A new Flutter toast package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ritikrai09/flutter_rr_toast/
 
 environment:
   sdk: '>=3.0.3 <4.0.0'
