@@ -57,13 +57,13 @@ MaterialApp(
 ```
 or
 ``` dart
-//Warning: Don't arbitrarily adjust the position of calling the BotToastInit function 
-final botToastBuilder = RRToastInit();  //1. call RRToastInit 
+//Warning: Don't arbitrarily adjust the position of calling the RRToastInit function 
+final rrToastBuilder = RRToastInit();  //1. call RRToastInit 
 MaterialApp(
       title: 'RRToast Demo',
       builder: (context, child) {
         child = myBuilder(context,child);  //do something
-        child = botToastBuilder(context,child); 
+        child = rrToastBuilder(context,child); 
         return child;
       }, 
       navigatorObservers: [RRToastNavigatorObserver()], //2. registered route observer
@@ -134,7 +134,7 @@ cancel();  //close
 MaterialApp(
       title: 'RRToast Demo',
       builder: RRToastInit(), 
-      navigatorObservers: [BotToastNavigatorObserver()],
+      navigatorObservers: [RRToastNavigatorObserver()],
       home: XxxxPage(),
   )
 ```
