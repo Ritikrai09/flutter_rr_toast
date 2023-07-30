@@ -4,13 +4,13 @@ An easy to use flutter toast library with more features!
 
 ### Language: English | (README.md)
 
-* [🐲Overview](#Overview)
-* [🐳Example](#Example)
+* [🕊️Overview](#Overview)
+* [🐦Example](#Example)
 * [🐮Getting started](#Getting-started) 
-* [🐼3.0 version](#30-version)
+* [🦅3.0 version](#30-version)
 * [📃Documentation](#Documentation) 
 
-###  🐲Overview
+###  🕊️Overview
 
 - In the true sense of Toast, you can call it whenever you need it, without any restrictions! 
 
@@ -25,11 +25,11 @@ An easy to use flutter toast library with more features!
 - Pure flutter implementation
 
 
-### 🐼Online Demo
+### 🕊️Online Demo
 
 **[Online demo](https://github.com/Ritikrai09/flutter_rr_toast/#/)** (Web effects may be biased, the actual effect is subject to the mobile phone)
 
-### 🐳Example
+### 🕊️Example
 **[Sample project](example)**
 
 ### 🐮Getting started
@@ -127,7 +127,7 @@ var cancelToast = RRToast.showAnimationWidget(...)
 cancel();  //close
 ```
 
-### 🐼3.0 version
+### 🐦3.0 version
 
 ``` dart
 //3.x.x version initialization method
